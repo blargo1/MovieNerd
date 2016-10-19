@@ -1,0 +1,28 @@
+<!-- Search input for movie search linked to movieSController-->
+<div class="col-lg-11">
+    <div class="input-group">
+        <input type="text" class="form-control" ng-model="vm.search" placeholder="Search for Movie">
+        <span class="input-group-btn">
+         	<button class="btn btn-primary button" id="gobtn" ng-click="vm.findMovie()">Go!</button>
+      	</span>
+    </div>
+</div>
+<!-- Movie details to appear on next page/state2 when go button above is clicked-->
+<!-- 3-columns added to make images side by side and ng-repeat to push data-->
+<div class="row">
+    <div ng-repeat="details in vm.movie" class="col-xs-4 col-xs-4 col-xs-4 text-center">
+        <div class='panel panel-info' id="panel">
+            <div class="panel-heading">
+                <pre>{{details.Title}}</pre>
+            </div>
+            <div class="panel-body" id="pb">
+                <a ui-sref="{{details.Poster}}"><img src="{{details.Poster}}"> </a>
+                <p>{{details.Year}}</p>
+                <!-- Link to state2 imdb movie details-->
+                <a ui-sref="state2({movieDetailID : details.imdbID})">Go to IMDB</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- State2 view below-->
+<div ui-view> </div>

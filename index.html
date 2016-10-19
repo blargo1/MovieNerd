@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--angular.module name(movieApp) to be injected into movie.service and both controllers-->
+<html lang="en" ng-app="movieApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Nerd!</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/styles/styles.css">
+    <!-- endinject -->
+</head>
+
+<body id="bg">
+    <div class="jumbotron" id="jumbobg">
+        <h2>Movie Nerd!</h2>
+    </div>
+    <!--Link to state 1(ui-view)-->
+    <div ui-view></div>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!--h1>HEY You</h1-->
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <script src="/app/movie.service.js"></script>
+    <script src="/app/movieDController.js"></script>
+    <script src="/app/movieSController.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<div>
+    <!--pre>{{ben.finalMovieDetail | json}}</pre-->
+    <div class="col-md-3">
+    <img src="{{ben.finalMovieDetail.Poster}}">
+    </div>
+    <!--Output of movie details to show on state2 page-->
+    <div class="panel panel-info">
+        <div id="panelB" class="panel-body">
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">{{ben.finalMovieDetail.Title}}</li>
+                    <li class="list-group-item">{{ben.finalMovieDetail.Year}}</li>
+                    <li class="list-group-item">{{ben.finalMovieDetail.Runtime}}</li>
+                    <li class="list-group-item">{{ben.finalMovieDetail.Director}}</li>
+                    <li class="list-group-item">{{ben.finalMovieDetail.Country}}</li>
+                </ul>
+                <!--Link back to state1/home page below-->
+                <a ui-sref="state1">Home Page</a>
+            </div>
+        </div>
+    </div>
+</div>

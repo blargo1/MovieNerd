@@ -1,0 +1,46 @@
+/*#blah{
+padding-bottom: 20px
+}
+
+#btns{
+padding-bottom: 10px
+
+}
+
+/*#jumbobg{
+background-color: rgba(0, 0, 255, 0.3);
+}   /* blue with opacity */
+
+#jumbobg{
+background-image: url(/app/styles/images/MovieBG1.png);
+}
+
+#bg{
+background-image: url(/app/styles/images/MovieBG1.png);
+}
+
+#panelB{
+background-image: url(/app/styles/images/MovieBG1.png);	
+}
+
+
+ /*#pb    {
+ 	resize-image
+        width: 100%;
+        height: 350px;
+    }
+
+/*    .panel-height {
+        height: 600px;
+    }
+}
+
+.resize-image {
+    width: 100%;
+    /*height: 600px;*/
+/*    height: 400px;
+    width: 100%;
+    height: 100%*/
+ /*   max-width: 350px;
+/*where resize-image is a class attached to the image html element for the poster 
+and panel height is a class attached to the panel
