@@ -21,7 +21,14 @@ margin-right: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
+#test{
+background-color: lightblue;
 
+}
+
+#ulclass{
+    background: lightblue;
+}
 
  /*#pb    {
  	resize-image

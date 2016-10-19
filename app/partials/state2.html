@@ -1,26 +1,25 @@
 <div>
     <!--pre>{{ben.finalMovieDetail | json}}</pre-->
-    <div class="col-md-3" id=listgroup>
-    <img src="{{ben.finalMovieDetail.Poster}}">
+    <div class="col-md-4" id=listgroup>
+        <img src="{{ben.finalMovieDetail.Poster}}">
     </div>
     <!--Output of movie details to show on state2 page-->
     <div class="panel panel-info">
         <div id="panelB" class="panel-body">
-            <div class="col-md-4">
-                <ul class="list-group">
-                    <li class="list-group-item">{{ben.finalMovieDetail.Title}}</li>
-                    <li class="list-group-item">{{ben.finalMovieDetail.Year}}</li>
-                    <li class="list-group-item">{{ben.finalMovieDetail.Runtime}}</li>
-                    <li class="list-group-item">{{ben.finalMovieDetail.Director}}</li>
-                    <li class="list-group-item">{{ben.finalMovieDetail.Country}}</li>
+            <div class="col-md-6" id="test">
+                <ul class="list-group" id="ulclass">
+                    <li class="list-group-item list-group-item-info">{{ben.finalMovieDetail.Title}}</li>
+                    <li class="list-group-item list-group-item-info">{{ben.finalMovieDetail.Year}}</li>
+                    <li class="list-group-item list-group-item-info">{{ben.finalMovieDetail.Runtime}}</li>
+                    <li class="list-group-item list-group-item-info">{{ben.finalMovieDetail.Director}}</li>
+                    <li class="list-group-item list-group-item-info">{{ben.finalMovieDetail.Country}}</li>
                 </ul>
                 <!--Link back to state1/home page below-->
-                <a ui-sref="state1">Home Page</a>
+                <a ui-sref="state1"> Click to go to Home Page</a>
             </div>
         </div>
     </div>
 </div>
-
-<!--     -->
-<!--     -->
-<!--     -->
+<!--  JK: I would add a label to heading to each one of your list items   -->
+<!--  JKL: ditto on lables for list items   -->
+<!--  SA, same - lables would be a nice touch   -->

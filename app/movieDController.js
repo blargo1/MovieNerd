@@ -37,6 +37,6 @@
 
 })();
 
-//Comments: 
-//Comments: 
-//Comments: 
+//Comments: JK, you can remove some of the console logs after you've gotten everything working
+//Comments: JKL- may want to consider naming convention issues with controllers ie 'D'controller
+//Comments: nice use of varying names

@@ -28,6 +28,6 @@
         
 })();
 
-//Comments: 
-//Comments: 
-//Comments: 
+//Comments: JK- go ahead and make use of toastr or remove it
+//Comments: JKL- looks good
+//Comments: SA - ditto to toastr, love the ben controller
