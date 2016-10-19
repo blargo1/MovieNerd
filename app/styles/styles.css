@@ -1,11 +1,3 @@
-/*#blah{
-padding-bottom: 20px
-}
-
-#btns{
-padding-bottom: 10px
-
-}
 
 /*#jumbobg{
 background-color: rgba(0, 0, 255, 0.3);
@@ -21,6 +13,13 @@ background-image: url(/app/styles/images/MovieBG1.png);
 
 #panelB{
 background-image: url(/app/styles/images/MovieBG1.png);	
+margin-left: auto;
+margin-right: auto;
+}
+
+#listgroup{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
